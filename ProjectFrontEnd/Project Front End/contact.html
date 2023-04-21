@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header-contact">
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="contact">Contact us</h1>
+    </section>
+
+    <div class="address">
+    <p class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.911100926794!2d7.483899114276735!3d9.071863390815244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0a5480a88261%3A0x4d7a24d22cfdabd7!2sNIIT!5e0!3m2!1sen!2sng!4v1644108886878!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    
+    <div class="written-addr">
+        <h3 class="addr"><i class="fas fa-map-marker-alt"></i>  Contact us</h3>
+        <p class="contact-p">- 9 Ikotung Macron Street,
+        Wuse2, Abuja.<br>- 298 Ikot Ekpene Road, Ukanafun, Akwa Ibom<br>
+        - 76 Mark Bill Street, Washington DC, USA.</p>
+        <h3 class="call"><i class="fas fa-phone"></i>  Phone</h3>
+        <p class="contact-p">+234 8030461262, Nigeria<br> +1 855-123-9876, USA</p>
+        <h3><i class="fas fa-envelope-square"></i>  Email</h3>
+        <p class="contact-p">kemzyautoservices@gmail.com</p>
+    </div>
+
+    </div>
+
+    <div class="cformm">
+        <form action="">
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your first and lastname only" id="contact-name" onkeyup="validateName()">
+                <span id="name-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label>Phone</label>
+                <input type="text" placeholder="2348012345678" id="contact-phone" onkeyup="validatePhone()">
+                <span id="phone-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter your email" id="contact-email" onkeyup="validateEmail()">
+                <span id="email-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label>Your thought, question or enquiry</label>
+                <textarea rows="5" placeholder="Enter your message" id="contact-message" onkeyup="validateMessage()"></textarea>
+                <span id="message-error"></span>
+            </div>
+
+            <button onclick="return validateForm()">Submit</button>
+            <span id="submit-error"></span>
+        </form>
+    </div>
+
+    <section class="footer">
+        <h2>About Us</h2>
+        <p>temporibus. Officia laborum accusamus architecto magnam quisquam 
+            illo <br>cupiditate? Consequatur mollitia et ea itaque.</p>
+
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+
+            <p>Made by TechNet Global</p>
+            <p>&#169 <i>All copyrights reserved</i></p>
+    </section>
+
+    <script src="javascript/script.js"></script>
+    
+</body>
+</html>

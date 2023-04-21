@@ -1,0 +1,172 @@
+@media only screen and (max-width: 700px) {
+    
+    /* Media query for index page */
+    .text-box h1{
+        font-size: 50px;
+        font-weight: none;
+        background: rgba(0, 0, 0, 0.4);
+        width: 70%;
+    }
+    .header{
+        background: url(images/dashboard2.jpg);
+    }
+    .serv{
+        margin: 10px;
+        width: 95%;
+    }
+    .serv-col h3{
+        text-align: center;
+    }
+    .text-box h1{
+        font-size: 50px;
+    }
+    .text-box p{
+        color: white;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links ul li a{
+        font-size: 20px;
+    }
+    .nav-links{
+        position: absolute;
+        /* background: rgba(202, 29, 29, 0.5); */
+        height: 290px;
+        width: 180px;
+        top: 0;
+        right: 0;
+    }
+    
+    .nav-links ul{
+        padding: 20px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row-talks{
+        flex-direction: column;
+    }
+    .list-row{
+        flex-direction: column;
+    }
+    .list-row img{
+        width: 300px;
+        height: 200px;
+    }
+    .our-offices{
+        margin: 10px;
+        width: 90%;
+    }
+    .vehicles{
+        margin: 10px;
+        width: 90%;
+    }
+    .list-row ul{
+        margin: 10px;
+        width: 80%;
+    }
+    .list-row img{
+        display: none;
+    }
+    .pix-gal{
+        margin: 10px;
+        width: 90%;
+    }
+    .testimonials{
+        margin: 10px;
+        width: 90%;
+    }
+    .cta{
+        margin: 10px;
+        width: 90%;
+    }
+    .footer{
+        margin: 10px;
+        width: 80%;
+    }
+
+    /* Media query for about page */
+    .about{
+        margin: 10px;
+        width: 80%;
+    }
+    .writeup{
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .about-img{
+        display: none;
+    }
+
+    /* Media query for contact page */
+    
+    .header-contact{
+        height: 200px;
+    }
+    .address{
+        flex-direction: column;
+        width: 76%
+    }
+    .written-addr{
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+    .map{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .cformm{
+        margin-top: 15px;
+    }
+    
+}
+/* index page for other screens*/
+@media only screen and (max-width: 768px){
+    .header{
+        background: url(images/dashboard2.jpg);
+    }
+} 
+@media only screen and (max-width: 912px){
+    .header{
+        background: url(images/dashboard2.jpg);
+    }
+}
+@media only screen and (max-width: 540px){
+    .about-head{
+        font-size: 40px;
+        padding-right: 50px;
+    }
+    .services-head{
+        font-size: 40px;
+        padding-right: 80px;
+    }
+    .contact{
+        font-size: 40px;
+        padding-right: 80px;
+    }
+    
+    .map{
+        display: none;
+    }
+    .written-addr{
+        width: 400px;
+        padding-right: 100px;
+        margin-left: 50px;
+    }
+    .written-addr p{
+        font-size: 15px;
+    }
+    .written-addr h3{
+        font-size: 20px;
+    }
+    
+}
+@media only screen and (max-width: 280px){
+    .text-box h1{
+        font-size: 30px;
+    }
+}
